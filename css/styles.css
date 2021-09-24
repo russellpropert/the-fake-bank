@@ -1,0 +1,39 @@
+#status {
+  color: red;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input {
+  margin-bottom: 4px
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.nav-link, 
+.navbar-text {
+  margin: 0 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #CCC;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
