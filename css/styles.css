@@ -19,6 +19,11 @@ input {
   margin-bottom: 4px
 }
 
+.message {
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
+
 .error-message {
   color: red;
   margin-bottom: 10px;

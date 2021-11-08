@@ -194,7 +194,7 @@ function BankForm(props) {
                 autoComplete="email"
                 onChange={(event) => setEmail(event.currentTarget.value)}
               ></input>
-              {isError('email') ? <div className="error-message">{errorMessages.email}</div> : <div className="error-message">&nbsp;</div>}
+              {isError('email') ? <div className="message">{errorMessages.email}</div> : <div className="message">&nbsp;</div>}
             </>
           }
 
@@ -211,7 +211,7 @@ function BankForm(props) {
                 autoComplete="new-password"
                 onChange={(event) => setPassword(event.currentTarget.value)}
               ></input>
-              {isError('password') ? <div className="error-message">{errorMessages.password}</div> : <div className="error-message">&nbsp;</div>}
+              {isError('password') ? <div className="message">{errorMessages.password}</div> : <div className="message">&nbsp;</div>}
             </>
           }
 
@@ -227,7 +227,7 @@ function BankForm(props) {
                 value={firstName}
                 onChange={(event) => setFirstName(event.currentTarget.value)}
               ></input>
-              {isError('firstName') ? <div className="error-message">{errorMessages.firstName}</div> : <div className="error-message">&nbsp;</div>}
+              {isError('firstName') ? <div className="message">{errorMessages.firstName}</div> : <div className="message">&nbsp;</div>}
             </>
           }
 
@@ -244,7 +244,7 @@ function BankForm(props) {
                 value={lastName}
                 onChange={(event) => setLastName(event.currentTarget.value)}
               ></input>
-              {isError('lastName') ? <div className="error-message">{errorMessages.lastName}</div> : <div className="error-message">&nbsp;</div>}
+              {isError('lastName') ? <div className="message">{errorMessages.lastName}</div> : <div className="message">&nbsp;</div>}
             </>
           }
 
