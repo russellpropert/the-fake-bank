@@ -4,7 +4,7 @@
 This is a front end, single page application demo. You can create an account, login, deposit, withdraw, and view the site's data. Site data includes the users and transactions.
 
 ## How To Run
-This exercise can be run by forking the repository and cloning it to your machine. If you don't have npm installed, you can get it by installing node.js (https://nodejs.org/en/download/). Run 'npx http-server' from the command line to run a temporary http-server or install http-server as a global command by running 'npm install --global http-server' (https://www.npmjs.com/package/http-server). Run 'http-server' to start a server. Run 'http-server -c-1' to prevent the browser from caching if you want to make changes. You can then access the page by going to localhost:8080 in your web browser.
+This exercise can be run by forking the repository and cloning it to your machine. If you don't have npm installed, you can get it by installing [node.js](https://nodejs.org/en/download/). Run 'npx http-server' from the command line to run a temporary [http-server](https://www.npmjs.com/package/http-server). The output will let you know what port the servier is listenting on (ex. http://127.0.0.1:8080). Hit CTRL-C to stop the server when finished.
 
 ## MIT License
 Copyright (c) 2021 Russell Propert
