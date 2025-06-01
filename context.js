@@ -240,7 +240,6 @@ function BankForm(props) {
                 type="text"
                 name="lastName"
                 id="lastName"
-                id="lastName"
                 value={lastName}
                 onChange={(event) => setLastName(event.currentTarget.value)}
               ></input>
